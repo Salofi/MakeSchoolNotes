@@ -23,6 +23,7 @@
 		5BD3405C1B1884D600A6CDE9 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340591B1884D600A6CDE9 /* RealmSwift.framework */; };
 		5BD3405D1B1884D600A6CDE9 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340591B1884D600A6CDE9 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DA2049211B95005B007C1C3B /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2049201B95005B007C1C3B /* NewNoteViewController.swift */; };
+		DA2049251B962B6F007C1C3B /* NoteDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2049241B962B6F007C1C3B /* NoteDisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		5BD340581B1884D600A6CDE9 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Realm.framework; sourceTree = "<group>"; };
 		5BD340591B1884D600A6CDE9 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../RealmSwift.framework; sourceTree = "<group>"; };
 		DA2049201B95005B007C1C3B /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+		DA2049241B962B6F007C1C3B /* NoteDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			children = (
 				5B7FD42C1B189D2C0088C25E /* NotesViewController.swift */,
 				DA2049201B95005B007C1C3B /* NewNoteViewController.swift */,
+				DA2049241B962B6F007C1C3B /* NoteDisplayViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				5B7FD42F1B189D2C0088C25E /* NotesViewController.swift in Sources */,
 				5B7FD4351B18A1FC0088C25E /* NoteTableViewCell.swift in Sources */,
 				5B7FD4331B18A15D0088C25E /* Note.swift in Sources */,
+				DA2049251B962B6F007C1C3B /* NoteDisplayViewController.swift in Sources */,
 				DA2049211B95005B007C1C3B /* NewNoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

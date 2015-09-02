@@ -32,9 +32,14 @@ class NewNoteViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        currentNote = Note()
-        currentNote!.title = "Simple Note"
-        currentNote!.content = "I'm Hungry"
+        
+        if (segue.identifier == "ShowNewNote") {
+            // create a new Note and holdonto it, to be able to save it later 
+            currentNote = Note()
+            let noteViewController = segue.destinationViewController as! NoteDisplayViewController
+            noteViewController.note = currentNote
+            noteViewController.edit = true 
+        }
     }
 
 
